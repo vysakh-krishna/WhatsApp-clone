@@ -1,0 +1,69 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+    overflow:hidden;
+}
+*{
+    box-sizing: border-box;
+}
+#container{
+    display:flex;
+}
+#leftcontainer{
+    min-width: 300px;
+}
+#rightcontainer{
+    flex:1;
+}
+.leftheader{
+    padding: 5px 10px;
+    background-color: rgb(216, 215, 215);
+    border-right:rgb(221,221, 221) 1px solid;
+}
+#rightheader{
+    padding: 5px 10px;
+    display:flex;
+    align-items: center;
+    background-color: rgb(216, 215, 215);
+}
+#personName{
+    padding-left: 10px;
+    flex:1;
+}
+#contacts{
+    height: 100vh;
+    overflow-y:auto;
+}
+.contactBar{
+    display:flex;
+    padding: 5px;
+    align-items: center;
+    border-bottom:0.5px solid rgb(221,221, 221);
+}
+.contactName{
+    flex:1;
+    font-weight: bold;
+    font-size:medium;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.chatTime{
+    color: rgb(151, 151, 151);
+    font-size: 12px;
+}
+.contactmsg{
+    font-size: 12px;
+    color: rgb(102, 101, 101);
+    font-weight: normal;
+}
+.selectedBar{
+    background-color: rgb(216, 215, 215);
+}
+#mainChat{
+    /* background-color:rgb(189, 196, 173); */
+    height: calc(100% - 48px);
+    background-image: url("images/whatsapp.png");
+    /* background-size: 100%; */
+}
