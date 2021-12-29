@@ -40,7 +40,7 @@ html,body{
     display:flex;
     padding: 5px;
     align-items: center;
-    border-bottom:0.5px solid rgb(221,221, 221);
+    border-top:1.0px solid rgb(221,221, 221);
 }
 .contactName{
     flex:1;
@@ -93,6 +93,9 @@ html,body{
     border-radius: 17px;
     height: 34px;
     width: 34px;
+}
+#emj img{
+    background-color: rgb(20, 134, 96);
 }
 .emoji{
     padding: 5px;
