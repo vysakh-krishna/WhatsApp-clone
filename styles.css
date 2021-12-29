@@ -62,8 +62,60 @@ html,body{
     background-color: rgb(216, 215, 215);
 }
 #mainChat{
-    /* background-color:rgb(189, 196, 173); */
-    height: calc(100% - 48px);
+    height: calc(90vh - 48px);
     background-image: url("images/whatsapp.png");
-    /* background-size: 100%; */
+    overflow:scroll;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+.inputmsg{
+    height: 10vh;
+    display:flex;
+    background-color: rgb(216, 215, 215);
+    padding: 5px;
+    align-items: center;
+    /* bottom:0; */
+    /* position: fixed; */
+    /* z-index: 1; */
+}
+#msgContainer{
+    flex: 1;
+}
+#msg{
+    border-radius:17px;
+    /* height:34px; */
+    width:100%;
+    border:0px;
+    padding: 10px;
+}
+.emoji img{
+    border-radius: 17px;
+    height: 34px;
+    width: 34px;
+}
+.emoji{
+    padding: 5px;
+    border-radius:17px;
+}
+.chatBox{
+    padding: 3px;
+}
+.received{
+    background-color:white;
+    padding: 5px;
+    max-width: 60%;
+    border-radius: 5px;
+    display: inline-block;
+}
+.sendChat{
+    text-align: right;
+}
+.send{
+    background-color:rgb(185, 226, 166);
+    padding: 5px;
+    max-width: 60%;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
 }
